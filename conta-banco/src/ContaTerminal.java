@@ -4,7 +4,7 @@ public class ContaTerminal{
         //criar Scanner
         Scanner sc = new Scanner(System.in);
 
-        //Pedir  inputs do úsuario e armazenar os valores em suas respectivas variaveis
+        //Pedir  inputs do usuário e armazenar os valores em suas respectivas variaveis
         System.out.println("Por favor, digite seu nome: ");
         String nomeCliente = sc.nextLine();
         
@@ -21,7 +21,8 @@ public class ContaTerminal{
 
         System.out.println("Por favor, digite o valor que gostaria de depositar: ");
         double saldo = sc.nextDouble();
-        
+        //Exibir mensagem final com valores recebidos do usuário
+        System.out.println("Olá" + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero +" e seu saldo " + saldo + " já está disponível para saque");
 
     }
 }
